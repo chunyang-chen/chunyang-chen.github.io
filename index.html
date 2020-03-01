@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.monash.edu/favicon.ico" />
+    <link href="stylesheets/modern-business.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -19,32 +23,99 @@
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h2>Chunyang Chen 陈春阳</h2>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Chunyang Chen 陈春阳</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link"  target="_blank" href="publications.html">Publication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#award">Award</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  target="_blank" href="tool.html">Tool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#teach">Teach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
 
 	
-			<p>I am a lecturer (Assistant Professor) in Faculty of Information Technology, Monash University, Australia.
-               My research focuses on Software Engineering, Deep Learning and Human-Computer Interaction. 
-			   I obtained my PhD from School of Computer Science and Engineering, <a href="http://www.ntu.edu.sg/Pages/home.aspx">Nanyang Technological University</a> (NTU), Singapore, under the supervision of <a target="_blank" href="https://cecs.anu.edu.au/people/zhenchang-xing">Zhenchang Xing</a> and <a target="_blank" href="http://www.ntu.edu.sg/home/yangliu/">Yang Liu</a>.
-			   When pronouncing my first name, "Chun-yang" sounds like "train-young".
-			</p>
-
-			<h3>
-			<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>News</h3>
 			<p>
-			  I am now looking for self-motivated PhD/Master students with full scholarship, and also CSC/visting scholars and students. If you are interested, please contact me. 
-			</p>
-			 
+			   I am a lecturer (Assistant Professor) in Faculty of Information Technology, Monash University, Australia.
+			   I obtained my PhD from School of Computer Science and Engineering, <a href="http://www.ntu.edu.sg/Pages/home.aspx">Nanyang Technological University</a> (NTU), Singapore and Bachelor from Beijing University of Posts and Telecommunications.
+			   When pronouncing my first name, "Chun-yang" sounds like "train-young".
+	        </p>
+	        <br/>
+	        <p> 
+			   My research focuses on Software Engineering, Deep Learning and Human-Computer Interaction. Specifically, I apply AI/ML, NLP and program analysis technology in the following three directions:
 
-			<h3>
-			<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selected publications</h3>
+			</p>
+
+			<ul>
+				<li>
+					<dl>
+					<dt>AI-assisted Automated Mobile App Development:</dt>
+						<dd>e.g., How to generate front-end code for the UI design? (ICSE’18)</dd>
+						<dd>e.g., How to help designer get inspiration for UI design? (CSCW’20)</dd>
+						<dd>e.g., Can mobile apps more accessible for people with visual impairments? (ICSE’20) </dd>
+					</dl>
+						
+				</li>
+
+				<li>
+					<dl>
+					<dt>(AI-empowered) Mining Software Repository:</dt>
+						<dd>e.g., How to extract word deviations from unstructured text? (ICSE’17)</dd>
+						<dd>e.g., Can manual collaborative editing in Q&A posts be automated by deep learning? (CSCW’17)</dd>
+						<dd>e.g., How to distil the difference between similar software technologies? (ASE’18)</dd>
+					</dl>
+				</li>
+
+				<li>
+					<dl>
+					<dt>Testing Deep Neural Network and Mobile App Security:</dt>
+						<dd>e.g., How to ensure the robustness of neural network? (ASE’18)</dd>
+						<dd>e.g., How to generate the phishing apps by deep learning? (TIFS’19)</dd>
+					</dl>
+				</li>
+			</ul>
+
+
+
+			<h2>
+			<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>News</h2>
+			<p>
+			  I am always looking for self-motivated PhD/Master students with full scholarship, and also CSC/visting scholars and students. If you are interested, please contact me. 
+			</p>
+			
+			<br/>
+
+			<h2>
+			<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selected publications</h2>
 
 			<ol>
 				<li>
@@ -53,7 +124,7 @@
 					<p>
 						Jieshan Chen, <u>Chunyang Chen</u>, Zhenchang Xing, Xiwei Xu, Liming Zhu, Guoqiang Li, Jinshui Wang
 					</p>
-					<span class="refs-link"><a target="_blank" href="">To appear</a></span>
+					<span class="refs-link"><a target="_blank" href="publication/labelDroid_ICSE20.pdf">PDF</a></span>
 					&middot; 
 					<span class="refs-acceptance">Acceptance rate: 20.9% (129/617)</span>
 				</li>
@@ -64,18 +135,32 @@
 					<p>
 						Dehai Zhao, Zhenchang Xing, <u>Chunyang Chen</u>, Xiwei Xu, Liming Zhu, Guoqiang Li, Jinshui Wang
 					</p>
-					<span class="refs-link"><a target="_blank" href="">To appear</a></span>
+					<span class="refs-link"><a target="_blank" href="publication/Seenomaly_ICSE20.pdf">PDF</a></span>
 					&middot; 
+					<span class="refs-link"><a target="_blank" href="https://github.com/DehaiZhao/Seenomaly">Code</a></span>
+					&middot;
 					<span class="refs-acceptance">Acceptance rate: 20.9% (129/617)</span>
 				</li>
 				
+				<li>
+					[ICSE-2020] <strong>SimilarAPI: Mining Analogical APIs for Library Migration</strong>
+					<p><i>The 42nd International Conference on Software Engineering, Tool demo, Seoul, South Korea.</i></p>
+					<p>
+						<u>Chunyang Chen</u>
+					</p>
+					<span class="refs-link"><a target="_blank" href="publication/similarAPI_ICSE20.pdf">PDF</a></span>
+					&middot; 
+					<span class="refs-acceptance">Acceptance rate: 33.3% (25/75)</span>
+				</li>
+
+
 				<li>
 					[TDSC] <strong>GUI-Squatting Attack: Automated Generation of Android Phishing Apps</strong>
 					<p><i>IEEE Transactions on Dependable and Secure Computing</i></p>
 					<p>
 						Sen Chen, Lingling Fan, <u>Chunyang Chen</u>, Minhui Xue, Yang Liu, and Lihua Xu
 					</p>
-					<span class="refs-link"><a target="_blank" href="">To appear</a></span>
+					<span class="refs-link"><a target="_blank" href="publication/phishingApp_TDSC19.pdf">PDF</a></span>
 					&middot;
 					<span class="refs-acceptance">Impact factor: 6.404</span>
 				</li>
@@ -88,6 +173,8 @@
 						Suyu Ma, Zhenchang Xing, <u>Chunyang Chen</u>, Cheng Chen, Lizhen Qu, Guoqiang Li
 					</p>
 					<span class="refs-link"><a target="_blank" href="publication/API_NER_TSE2019.pdf">PDF</a></span>
+					&middot;
+					<span class="refs-link"><a target="_blank" href="https://github.com/JOJO201/API_Extraction">Code</a></span>
 					&middot;
 					<span class="refs-acceptance">Impact factor: 4.778</span>
 				</li>
@@ -277,31 +364,48 @@
 
 
 			</ol>
-            <font size="4">See more papers in the <a target="_blank" href="publications.html">full list</a></font>
 			
-			<h3>
-			<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Awards</h3>
+			<h2>
+			<a id="award" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Awards
+			</h2>
 			<ul>
 			    <li>ACM SIGSOFT Distinguished Paper Award in ASE 2018</li>
 				<li>Best Paper Award in SANER 2016</li>
 				<li>Best Tool Demo in ASE 2016</li>
 			</ul>
 		
-			<h3>
-			<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supervised students</h3>
+			<h2>
+			<a id="team" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supervised students</h2>
 			<ul>
-			    <li>2018~2019 (ANU) Chen Xi [<a target="_blank" href="https://github.com/u6013686/XiChen-project">project</a>], Kai Xi [<a target="_blank" href="">project</a>], Wang Ruiqi [<a target="_blank" href="">project</a>], Wang Yuyang [<a target="_blank" href="">project</a>],  Feng Sidong [<a target="_blank" href="">project</a>]  </li>
-				<li>2018 (ANU) Wang Xu [<a target="_blank" href="#">project</a>], Qiu Zhuoqi [<a target="_blank" href="https://github.com/Zhuoqi-QIU-Ezio/empirical_study_multilingual_QA">project</a>], Huang Yi [<a target="_blank" href="https://github.com/hy3440/diffSimilarTech">project</a>], Yang Renfei [<a target="_blank" href="https://github.com/yrfyang/yrf-reseach-project">project</a>], Li Yuchen [<a target="_blank" href="#">project</a>], Li Zhiheng [<a target="_blank" href="#">project</a>]</li>
-				<li>2017~2018 (NTU) Chow Wei Jun Bernard [<a target="_blank" href="https://github.com/bernardcwj/FYP_2017">project</a>], Koh Hong Da [<a target="_blank" href="https://github.com/lunalite/UITestLearning">project</a>], Lin Tian [<a target="_blank" href="https://github.com/lint0011/FYP">project</a>]</li>
-				<li>2017 (ANU) Wang Qiancheng [<a target="_blank" href="https://github.com/WrynnWang/Build-Multi-Language-Stackoverflow-or-not-">project</a>], Cao Jixuan [<a target="_blank" href="https://github.com/cjxuan1995/DataPreprocessing">project</a>], Yuan Tonghui [<a target="_blank" href="https://github.com/TongTY/Individual-Project">project</a>]</li>
-				<li>2016~2017 (NTU) Kent Ong Long Xiong [<a target="_blank" href="http://similarpackage.appspot.com/">project</a>], Tee Li Yin [<a target="_blank" href="https://github.com/liyin11/fyp">project</a>], Toh Gao Han [<a target="_blank" href="https://github.com/GaoHan91/Eclipse-API-Recommendation-Plugin.git">project</a>], Linus Lim Ji Wei [<a target="_blank" href="https://github.com/linusljw/FYP-AY16-17">project</a>]</li>
-				<li>2015~2016 (NTU) Teong Ke Ming [<a target="_blank" href="https://github.com/keming2606/FYP-AY201516.git">project</a>], Lee Yong Ming Leon [<a target="_blank" href="https://github.com/leonbrain/FYP_knowledgeGraph.git">project</a>], Wang Ximing [<a target="_blank" href="https://github.com/Striderk/se-dict-browser-extension">project</a>]</li>
-			</ul>
+			<h3>
+			<a id="phd" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>PhD</h4>
+				<ul>
+					<li>
+						Suyu Ma (Mar.2020-), Monash University
+					</li>
+					<li>
+						Jieshan Chen (Aug.2018-), Australian National University (Co-supervised with Zhenchang Xing)
+					</li>
+				</ul>
 			
 			<h3>
-			<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Teaching</h3>
+			<a id="alumni" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alumni
+		    </h3>
+				<ul>
+				    <li>2018~2019 (ANU) Chen Xi [<a target="_blank" href="https://github.com/u6013686/XiChen-project">project</a>], Kai Xi [<a target="_blank" href="">project</a>], Wang Ruiqi [<a target="_blank" href="">project</a>], Wang Yuyang [<a target="_blank" href="">project</a>],  Feng Sidong [<a target="_blank" href="">project</a>]  </li>
+					<li>2018 (ANU) Wang Xu [<a target="_blank" href="#">project</a>], Qiu Zhuoqi [<a target="_blank" href="https://github.com/Zhuoqi-QIU-Ezio/empirical_study_multilingual_QA">project</a>], Huang Yi [<a target="_blank" href="https://github.com/hy3440/diffSimilarTech">project</a>], Yang Renfei [<a target="_blank" href="https://github.com/yrfyang/yrf-reseach-project">project</a>], Li Yuchen [<a target="_blank" href="#">project</a>], Li Zhiheng [<a target="_blank" href="#">project</a>]</li>
+					<li>2017~2018 (NTU) Chow Wei Jun Bernard [<a target="_blank" href="https://github.com/bernardcwj/FYP_2017">project</a>], Koh Hong Da [<a target="_blank" href="https://github.com/lunalite/UITestLearning">project</a>], Lin Tian [<a target="_blank" href="https://github.com/lint0011/FYP">project</a>]</li>
+					<li>2017 (ANU) Wang Qiancheng [<a target="_blank" href="https://github.com/WrynnWang/Build-Multi-Language-Stackoverflow-or-not-">project</a>], Cao Jixuan [<a target="_blank" href="https://github.com/cjxuan1995/DataPreprocessing">project</a>], Yuan Tonghui [<a target="_blank" href="https://github.com/TongTY/Individual-Project">project</a>]</li>
+					<li>2016~2017 (NTU) Kent Ong Long Xiong [<a target="_blank" href="http://similarpackage.appspot.com/">project</a>], Tee Li Yin [<a target="_blank" href="https://github.com/liyin11/fyp">project</a>], Toh Gao Han [<a target="_blank" href="https://github.com/GaoHan91/Eclipse-API-Recommendation-Plugin.git">project</a>], Linus Lim Ji Wei [<a target="_blank" href="https://github.com/linusljw/FYP-AY16-17">project</a>]</li>
+					<li>2015~2016 (NTU) Teong Ke Ming [<a target="_blank" href="https://github.com/keming2606/FYP-AY201516.git">project</a>], Lee Yong Ming Leon [<a target="_blank" href="https://github.com/leonbrain/FYP_knowledgeGraph.git">project</a>], Wang Ximing [<a target="_blank" href="https://github.com/Striderk/se-dict-browser-extension">project</a>]</li>
+				</ul>
+			</ul>
+			<h2>
+			<a id="teach" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Teaching
+		    </h2>
 			<ul>
-				<li>2019 Fall | Lecturer & Chief examiner | FIT9133-Programming Foundations in Python</li>
+				<li>2020 S1 | Lecturer & Chief examiner | FIT9136-Algorithms and Programming Foundations in Python</li>
+				<li>2019 S1 | Lecturer & Chief examiner | FIT9133-Programming Foundations in Python</li>
 				<li>2017 Fall | Tutorial advisor | CZ3003-Software Systems Analysis & Design</li>
 				<li>2017 Spring | Lab assistant | CZ3003-Software Systems Analysis & Design</li>
 				<li>2016 Fall   | Lab assistant | CE2006-Software Engineering </li>
@@ -309,17 +413,41 @@
 				<li>2015 Fall   | Lab assistant | CZ3003-Software System Analysis & Design </li>
 			</ul>
 			
-			<h3>
-			<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Service</h3>
-			<ul>
-				<li>Guest Editor, Special Issue on <a target="_blank" href="https://static.springer.com/sgw/documents/1656130/application/pdf/CFP_+ASEJ+Special+Issues+on+Automated+App+Development.pdf">Automated Software Engineering for Mobile Applications</a>, Springer Automated Software Engineering</li>
-				<li>Reviewer for EMSE, JSS, ASE journal</li>
-				<li>PC for SANER'19 ERA, Tool</li>
-				<li>PC for ICSME'18 NIER</li>
-			</ul>
+			<h2>
+			<a id="service" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Service
+		    </h2>
+		    <ul>
+		    	<h3>
+					<a id="editor" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Organisation
+		    	</h3>
+		    		<ul>
+		    			<li>Guest Editor, Special Issue on <a target="_blank" href="https://static.springer.com/sgw/documents/1656130/application/pdf/CFP_+ASEJ+Special+Issues+on+Automated+App+Development.pdf">Automated Software Engineering for Mobile Applications</a>, Springer Automated Software Engineering</li>
+		    			<li>Student Research Competition Co-Chair: IEEE/ACM International Conference on Automated Software Engineering (ASE-20)</li>
+
+		    		</ul>
+
+		    	<h3>
+					<a id="conf" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Program Committee
+		    	</h3>
+		    		<ul>
+		    			<li> The International Conference on Software Maintenance and Evolution (ICSME-20,18)</li>
+		    			<li> IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER-20,19)</li>
+						<li> The Mining Software Repositories (MSR-20,19)</li>
+						<li> International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering (RAISE-20)</li>
+		    		</ul>
+		    	<h3>
+					<a id="jour" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Journal Reviewer
+		    	</h3>
+					<ul>
+						<li>Springer Empirical Software Engineering</li>
+						<li>Springet Automated Software Engineering</li>
+						<li>Elsevier Journal of Systems and Software</li>
+						
+					</ul>
+		    </ul>
 			
 <footer>
-	<p>&copy;Copyright | Chunyang Chen | Last update in Dec, 2019</p>
+	<p>&copy;Copyright | Chunyang Chen | Last update in Mar, 2020</p>
 </footer>
 		  		
 		</section>
@@ -330,6 +458,7 @@
         </aside>
       </div>
     </div>
+   </div>
             <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123405327-1"></script>
 <script>
