@@ -745,6 +745,10 @@ dl dd {
   font-weight: 100;
 }
 
+dd {
+  font-size: 13px;
+}
+
 footer {
   padding-top: 20px;
   padding-bottom: 30px;
