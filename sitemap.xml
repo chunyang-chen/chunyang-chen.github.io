@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://chunyang-chen.github.io/publication/UIsearch_TOSEM20.pdf</loc>
+</url>
+<url>
+<loc>https://chunyang-chen.github.io/publication/Seenomaly_ICSE20.pdf</loc>
+</url>
+<url>
+<loc>https://chunyang-chen.github.io/publication/similarAPI_ICSE20.pdf</loc>
+</url>
+<url>
+<loc>https://chunyang-chen.github.io/publication/phishingApp_TDSC19.pdf</loc>
+</url>
+<url>
 <loc>https://chunyang-chen.github.io/publication/API_NER_TSE2019.pdf</loc>
 </url>
 <url>
@@ -56,6 +68,12 @@
 </url>
 <url>
 <loc>https://chunyang-chen.github.io/publication/ask_search_correlation.pdf</loc>
+</url>
+<url>
+<loc>https://chunyang-chen.github.io/publications.html</loc>
+</url>
+<url>
+<loc>https://chunyang-chen.github.io/tool.html</loc>
 </url>
 <url>
 <loc>https://chunyang-chen.github.io/</loc>
