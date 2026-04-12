@@ -76,6 +76,11 @@ Metadata:
 - Keep publication `PDF` labels for real full-text access only.
 - If a publication does not have a verified public full-text source, keep `To appear`.
 - Homepage width/layout overrides should stay scoped to `body.page-home`.
+- Supervision nested achievements on the homepage are icon-led:
+  - use the shared job icon for current-role outcomes
+  - use award icons for award rows
+  - keep both icon types in the same visual icon box
+- Publication archive intro text should align with the archive sections; do not reintroduce a narrower centered archive summary on publication pages.
 
 ## QA Expectations
 

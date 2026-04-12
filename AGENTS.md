@@ -45,10 +45,16 @@ Other important asset folders:
 - Keep page-specific layout changes scoped carefully:
   - homepage-only width/layout overrides belong under `body.page-home`
   - archive pages should remain narrower than the homepage
+  - publication archive header/summary width should stay aligned with the archive sections; avoid reintroducing a narrower centered summary block on archive pages
 - Keep publication link labels accurate:
   - `PDF` only for real public full-text access
   - `Code`, `Dataset`, `Tool`, `Video` only for verified public artifacts
   - if no public full text exists, keep `To appear`
+- In homepage supervision nested achievement lists:
+  - use icon-led rows rather than default list bullets
+  - keep current-role outcomes on the shared job icon treatment
+  - keep award outcomes on the award icon treatment
+  - keep job and award icons in the same fixed icon box so they align visually
 - Preserve the current visual style unless a task explicitly asks for redesign.
 - Keep metadata consistent across pages:
   - `lang`
@@ -73,6 +79,8 @@ After any meaningful change, verify:
 - mobile navbar still works via `javascripts/main.js`
 - no horizontal overflow on desktop or mobile
 - homepage-only width changes do not leak into archive pages
+- nested supervision achievements remain icon-led with no visible default bullets
+- archive overview text and archive sections stay visually left-aligned on publication pages
 
 ## Local Preview
 

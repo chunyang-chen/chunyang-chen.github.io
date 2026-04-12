@@ -23,6 +23,9 @@ The right profile card is also inside `index.html`, in the sidebar area near the
 - The homepage is intentionally wider than archive pages. Do not copy homepage width overrides to publications or tools pages.
 - Do not shrink profile icon buttons unless explicitly requested.
 - If adjusting sidebar density, prefer tightening text spacing and margins before changing icon sizing.
+- In the supervision section, nested achievement rows should be icon-led rather than bullet-led.
+- Use the shared job icon for current-role outcomes and the award icon for award rows.
+- Keep nested job and award icons in the same fixed icon box so their visual footprint matches.
 
 ## Publication Maintenance Policy
 
@@ -121,5 +124,6 @@ These must remain unique per page and should match visible page content.
 
 - Homepage layout can be wider than archives.
 - Archive pages should remain narrower and more list-focused.
+- On `publications.html` and `LLMpublications.html`, keep the archive summary aligned with the archive sections; avoid a narrower summary width that makes later sections look shifted.
 - Preserve the current academic visual style unless a task explicitly requests redesign.
 - Prefer adjusting spacing and width in `stylesheets/site-refresh.css` instead of rewriting page structure unless necessary.
