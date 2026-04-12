@@ -1,600 +1,658 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-	<meta name="description" content="The homepage of Dr Chen Chunyang (陈春阳): Professor in Technical University Munich, Germany">    
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chunyang Chen | Professor of Software Engineering &amp; AI at TUM</title>
+    <meta
+      name="description"
+      content="Homepage of Chunyang Chen, Professor of Software Engineering &amp; AI at the Technical University of Munich. Research in software engineering, AI, LLMs, mobile systems, HCI, accessibility, and security."
+    >
+    <meta
+      name="robots"
+      content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    >
+    <link rel="canonical" href="https://chunyang-chen.github.io/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Chunyang Chen | Professor of Software Engineering &amp; AI at TUM">
+    <meta
+      property="og:description"
+      content="Professor at the Technical University of Munich working on software engineering, AI, LLMs, mobile systems, HCI, accessibility, and security."
+    >
+    <meta property="og:url" content="https://chunyang-chen.github.io/">
+    <meta property="og:site_name" content="Chunyang Chen">
+    <meta property="og:image" content="https://chunyang-chen.github.io/picture/chunyangChen_headshot.jpg">
+    <meta property="og:image:alt" content="Portrait of Chunyang Chen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chunyang Chen | Professor of Software Engineering &amp; AI at TUM">
+    <meta
+      name="twitter:description"
+      content="Research profile, publications, supervision, teaching, service, and software artifacts of Chunyang Chen."
+    >
+    <meta name="twitter:image" content="https://chunyang-chen.github.io/picture/chunyangChen_headshot.jpg">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="alternate icon" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    >
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-		<link rel="stylesheet" href="stylesheets/all.min.css">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/favicons/favicon.ico" />
-    <link href="stylesheets/modern-business.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Chunyang Chen's page | Technical University of Munich</title>
+    <link rel="stylesheet" href="stylesheets/all.min.css">
+    <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/site-refresh.css" media="screen">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://chunyang-chen.github.io/#website",
+            "url": "https://chunyang-chen.github.io/",
+            "name": "Chunyang Chen",
+            "publisher": {
+              "@id": "https://chunyang-chen.github.io/#person"
+            }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://chunyang-chen.github.io/#profile-page",
+            "url": "https://chunyang-chen.github.io/",
+            "name": "Chunyang Chen",
+            "isPartOf": {
+              "@id": "https://chunyang-chen.github.io/#website"
+            },
+            "mainEntity": {
+              "@id": "https://chunyang-chen.github.io/#person"
+            },
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://chunyang-chen.github.io/picture/chunyangChen_headshot.jpg"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://chunyang-chen.github.io/#person",
+            "name": "Chunyang Chen",
+            "alternateName": "\u9648\u6625\u9633",
+            "url": "https://chunyang-chen.github.io/",
+            "image": "https://chunyang-chen.github.io/picture/chunyangChen_headshot.jpg",
+            "jobTitle": "Professor of Software Engineering &amp; AI",
+            "worksFor": {
+              "@type": "CollegeOrUniversity",
+              "name": "Technical University of Munich"
+            },
+            "affiliation": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Technical University of Munich"
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Monash University"
+              },
+              {
+                "@type": "Organization",
+                "name": "fortiss"
+              }
+            ],
+            "email": "mailto:chun-yang.chen@tum.de",
+            "sameAs": [
+              "https://www.professoren.tum.de/en/chen-chunyang",
+              "https://scholar.google.com/citations?user=3tyGlPsAAAAJ",
+              "https://dblp.org/pid/180/7246.html",
+              "https://www.linkedin.com/in/chunyang-chen-503762100",
+              "https://twitter.com/chun_yang_chen"
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
-
-  <body>
-
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Prof. Dr. Chunyang Chen 陈春阳</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publication</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#award">Award</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tool.html">Tool</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#teach">Teach</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#service">Service</a>
-          </li>
-        </ul>
+  <body class="page-home">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          Chunyang Chen &#38472;&#26149;&#38451;
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#award">Awards</a></li>
+            <li class="nav-item"><a class="nav-link" href="tool.html">Software</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Supervision</a></li>
+            <li class="nav-item"><a class="nav-link" href="#teach">Teaching</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container">
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-
-	
-			<p>
-			   I am a full professor (Chair for <a target="_blank" href="https://www.cs.cit.tum.de/en/seai">Software Engineering & AI</a>) in Department of Computer Science, Technical University of Munich, Heilbronn, Germany, core member of <a target="_blank" href="https://www.mdsi.tum.de/en/mdsi/home/">Munich Data Science Institute</a>, board member of Heilbronn Data Science Center, Fellow in <a target="_blank" href="https://www.fortiss.org/en/">Fortiss</a> and also an adjunct professor in <a target="_blank" href="https://www.monash.edu/it">Monash University</a>, Australia.
-			   I obtained my PhD from <a href="https://www.ntu.edu.sg/scse">Nanyang Technological University</a> (NTU), Singapore.
-			   When pronouncing my first name, "Chunyang" sounds like "train young" which is exactly my job in the university.
-			   My research focuses on Software Engineering, Deep Learning and Human-Computer Interaction. Specifically, I apply AI/ML, NLP and light-weight program analysis technology in the following directions:
-			</p>
-
-		</br>
-
-			<ul>
-				<li>
-					<p>
-			      AI(LLM)-assisted automated mobile app development including 
-			      requirement elicitation [<a target="_blank" href="https://arxiv.org/pdf/1902.00476.pdf">ICSE'19a</a>, <a target="_blank" href="">TOSEM'21</a>, <a target="_blank" href="https://arxiv.org/abs/2203.06420">TSE'22</a>], 
-			      UI design [<a target="_blank" href="publication/designGallery_CSCW19.pdf">CSCW'19</a>, <a target="_blank" href="https://arxiv.org/abs/2008.06895">CSCW'20</a>, <a target="_blank" href="https://arxiv.org/pdf/2101.09978">ICSE'21a</a>], 
-			      UI code generation [<a target="_blank" href="publication/ui2code.pdf">ICSE'18</a>, <a target="_blank" href="publication/UIsearch_TOSEM20.pdf">TOSEM'20</a>, <a target="_blank" href="https://arxiv.org/abs/2008.05132">FSE'20</a>], 
-			      app GUI testing [<a target="_blank" href="https://arxiv.org/abs/2201.12085">CHI'22</a>, <a target="_blank" href="https://arxiv.org/abs/2212.05203">ICSE'23a</a>, <a target="_blank" href="https://arxiv.org/abs/2212.04732">ICSE'23b</a>], 
-			      usability [<a target="_blank" href="publication/Seenomaly_ICSE20.pdf">ICSE'20a</a>, <a target="_blank" href="https://arxiv.org/abs/2009.01417">ASE'20</a>, <a target="_blank" href="http://arxiv.org/abs/2212.04388">ASE'22</a>], 
-			      accessibility testing [<a target="_blank" href="https://arxiv.org/abs/2003.00380">ICSE'20b</a>, <a target="_blank" href="https://arxiv.org/pdf/2203.06422.pdf">TSE'21</a>],
-			      and bug replay [<a target="_blank" href="https://arxiv.org/abs/2112.04128">ICSE'22</a>, <a target="_blank" href="https://arxiv.org/abs/2302.00886">ICSE'23</a>, <a target="_blank" href="https://arxiv.org/abs/2306.01987">ICSE'24</a>].
-			    </p>
-			  </li>
-				
-
-				<li>
-					<p>
-						AI-empowered mining software repository including library/API migration [<a target="_blank" href="publication/diffSimilarTech.pdf">ASE'18a</a>, <a target="_blank" href="publication/similarAPI_TSE19.pdf">TSE'19a</a>], collaborative editing [<a target="_blank" href="publication/correctSentence.pdf">CSCW'17</a>, <a target="_blank" href="publication/proactiveEdit_cscw18.pdf">CSCW'18</a>, <a target="_blank" href="https://arxiv.org/abs/2109.09343">CSCW'21</a>], query reformulation [<a target="_blank" href="publication/ASE2016_gbchen.pdf">ASE'16</a>, <a target="_blank" href="https://arxiv.org/pdf/2102.00826">ICSE'21c</a>], and thesaurus construction[<a target="_blank" href="publication/seThesaurus.pdf">ICSE'17</a>, <a target="_blank" href="publication/similarAPI_TSE19.pdf">TSE'19</a>].
-					</p>
-				</li>
-
-				<li>
-					<p>
-						Robustness and security of deep learning and mobile apps including on-device model attack [<a target="_blank" href="https://arxiv.org/pdf/2101.04401">ICSE'21-SEIP</a>, <a target="_blank" href="https://arxiv.org/pdf/2204.11075.pdf">TIFS'22</a>], backdoor attack [<a target="_blank" href="https://arxiv.org/pdf/2101.06896">ICSE'21d</a>], phishing attack [<a target="_blank" href="publication/phishingApp_TDSC19.pdf">TDSC'19</a>] and deep learning defence [<a target="_blank" href="https://arxiv.org/pdf/1803.07519.pdf">ASE'18</a>, <a target="_blank" href="https://nzjohng.github.io/publications/papers/issta2023.pdf">ISSTA'23</a>].
-					</p>
-				</li>
-
-				<li>
-					<p>
-						<strong>Large-Languagel Model (LLM)</strong> for software engineering and HCI including 
-						software testing [<a target="_blank" href="https://arxiv.org/abs/2212.04732">ICSE'23</a>, <a target="_blank" href="https://arxiv.org/abs/2305.09434">ICSE'24a</a>, <a target="_blank" href="https://arxiv.org/abs/2310.15657">ICSE'24b</a>, <a target="_blank" href="https://arxiv.org/abs/2307.07221">TSE'24</a>], 
-						bug replay [<a target="_blank" href="https://arxiv.org/abs/2407.05165">ISSTA'24</a>, <a target="_blank" href="https://arxiv.org/abs/2306.01987">ICSE'24c</a>, <a target="_blank" href="https://arxiv.org/abs/2310.07128">ICSE'24d</a>], 
-						software accessibility [<a target="_blank" href="https://arxiv.org/abs/2404.02706">CHI'24</a>], smart assistant development [<a target="_blank" href="https://arxiv.org/abs/2401.14268">UIST'24</a>] and dataset construction [<a target="_blank" href="https://arxiv.org/abs/2405.07090">CHI'24</a>] with all our LLM-relevant works in <a href="LLMpublications.html">this page</a>.
-					</p>
-				</li>
-			</ul>
-
-
-
-			<h2>
-			<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>News</h2>
-			<ul>
-			
-			<li>
-				<p>
-		        2026 Jan, we received the Gemini Academic Program Award from Google Cloud.
-				</p>
-		  </li>
-			
-
-			<li>
-				<p>
-		        2025 Nov, we received the <a target="_blank" href="https://www.amazon.science/research-awards/program-updates/63-amazon-research-award-recipients-announced-spring-2025">Amazon Research Award</a> in AWS Agentic AI track.
-				</p>
-		  </li>
-
-			<li>
-				<p>
-		        2025 Oct, we received the ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="">ASE 2025</a> for "Seeing is Fixing: Cross-Modal Reasoning with Multimodal LLMs for Visual Software Issue Fixing".
-				</p>
-		    </li>
-
-			
-
-			<li>
-			<p>
-	        2025 May, please submit your paper to the special issue  <a target="_blank" href="https://emsejournal.github.io/special_issues/2025_SI_LLM4Security.html">"When Software Security Meets Large Language Models: Opportunities and Challenges"</a> in EMSE by August 15, 2025.
-			</p>
-	    </li>
-
-			<li>
-				<p>
-		        2024 May, we received the Best Paper Honorable Mention in <a target="_blank" href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions">CHI 2024</a>.
-				</p>
-		    </li>
-			
-				<li>
-					<p>
-		        2024 Feb, I moved from Monash University, Australia to <a target="_blank" href="https://www.professoren.tum.de/en/chen-chunyang">TUM</a>, Germany. I am now recruiting staff to join our team. 
-		      </p>
-		    </li>
-			
-			<li>
-				<p>
-					I am always looking for self-motivated PhD students with full scholarship <a target="_blank" href="https://www.cs.cit.tum.de/en/seai/open-positions/">Open Position</a>, and long-term visting scholars/students. For master and bachelor students in TUM, we provide a list of <a target="_blank" href="https://www.cs.cit.tum.de/en/seai/open-theses/">thesis projects</a> and please follow instructions there. 
-				</p>
-			
-			</li>
-			
-			</ul>
-
-			<h2>
-			<a id="award" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Awards
-			</h2>
-			<ul>
-			  <li>Gemini Academic Program Award from Google Cloud</li>
-			  <li>ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="https://www2.sigsoft.org/awards/distinguishedpaper/">ASE 2025</a> <a target="_blank" href="https://arxiv.org/abs/2506.16136"><i class="fa-solid fa-file-pdf"></i></a></li>
-			  <li><a target="_blank" href="https://www.amazon.science/research-awards/program-updates/63-amazon-research-award-recipients-announced-spring-2025">Amazon Research Award</a> in AWS Agentic AI 2025</li>
-			  <li>Best Paper Honorable Mention in <a target="_blank" href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions">CHI 2024</a> <a target="_blank" href="https://arxiv.org/abs/2404.02706"><i class="fa-solid fa-file-pdf"></i></a> </li>
-				<li><a target="_blank" href="https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/252">Discovery Early Career Researcher Award (DECRA)</a> from Australian Research Council</li>
-			  <li>ACM SIGSOFT Early Career Researcher Award <a target="_blank" href="https://sigsoft.medium.com/sigsoft-awards-2023-34c6e55b5a97">2023</a></li> 
-			  <li>ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="https://conf.researchr.org/info/icse-2023/awards">ICSE 2023</a> <a target="_blank" href="https://arxiv.org/abs/2212.05203"><i class="fa-solid fa-file-pdf"></i></a> </li>
-			  <li>ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="https://conf.researchr.org/track/icse-2021/icse-2021-awards#Award-Recipients-at-ICSE-2021">ICSE 2021</a> <a target="_blank" href="https://arxiv.org/pdf/2102.00826"><i class="fa-solid fa-file-pdf"></i></a> </li>
-			  <li><a target="_blank" href="https://www.monash.edu/it/research/awards-and-successes/faculty-awards/deans-award-for-research-impact-economic-and-social-impact">Dean's Award for Research Impact (Economic and Social Impact)</a> in Faculty of IT, Monash University.</li>
-				<li>Facebook Research Award in <a target="_blank" href="https://research.fb.com/blog/2020/06/announcing-the-winners-of-the-2020-probability-and-programming-research-awards/">Probability and Programming 2020</a></li>
-				<li>ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="https://2020.icse-conferences.org/info/awards">ICSE 2020</a> <a target="_blank" href="https://arxiv.org/abs/2003.00380"><i class="fa-solid fa-file-pdf"></i></a></span></li>
-				<li>ACM SIGSOFT Distinguished Paper Award in <a target="_blank" href="http://www.ase2018.com/?p=awards">ASE 2018</a> <a target="_blank" href="https://arxiv.org/abs/1803.07519"><i class="fa-solid fa-file-pdf"></i></a></li>
-				<li>Best Paper Award in <a target="_blank" href="http://saner.inf.usi.ch/index.php">SANER 2016</a> <a target="_blank" href="publication/analogical_libraries.pdf"><i class="fa-solid fa-file-pdf"></i></a> </li>
-				<li>Best Tool Demo in <a target="_blank" href="http://ase-conferences.org/olbib/">ASE 2016</a> <a target="_blank" href="publication/analogyTool.pdf"><i class="fa-solid fa-file-pdf"></i></a></li>
-			</ul>
-
-			<br/>
-
-			<h2>
-			<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selected recent publications</h2>
-
-			<ol>
-				<li>
-					[ICSE-26] <strong>Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature Testing</strong>
-					<p><i>IEEE/ACM International Conference on Software Engineering</i></p>
-					<p>
-						Sidong Feng, Changhao Du, Huaxiao Liu, Qingnan Wang, Zhengwei Lv, Mengfei Wang, <u>Chunyang Chen</u>
-					</p>
-					<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2506.17539">PDF</a></span>
-				</li>
-
-				<li>
-					[ICSE-26] <strong>A Semantic-based Optimization Approach for Repairing LLMs: Case Study on Code Generation</strong>
-					<p><i>IEEE/ACM International Conference on Software Engineering</i></p>
-					<p>
-						Jian Gu, Aldeida Aleti, <u>Chunyang Chen</u>, Hongyu Zhang
-					</p>
-					<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2503.12899">PDF</a></span>
-				</li>
-
-				<li>
-					[ICSE-26] <strong>Repair Ingredients Are All You Need: Improving Large Language Model-Based Program Repair via Repair Ingredients Search</strong>
-					<p><i>IEEE/ACM International Conference on Software Engineering</i></p>
-					<p>
-						Jiayi Zhang, Kai Huang, Jian Zhang, Yang Liu, <u>Chunyang Chen</u>
-					</p>
-					<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2506.23100">PDF</a></span>
-				</li>
-
-				<li>
-					[ICSE-26] <strong>Think Outside the Box: Automating Inter-App Functionality Testing via Memory Implanting and Reasoning</strong>
-					<p><i>IEEE/ACM International Conference on Software Engineering</i></p>
-					<p>
-						Mengzhuo Chen, Zhe Liu, <u>Chunyang Chen</u>, Junjie Wang, Yangguang Xue, Boyu Wu, Libin Wu, Qing Wang
-					</p>
-					<span class="refs-link"><a target="_blank" href="">PDF</a></span>
-				</li>
-
-				<li>
-						[ASE-25] <strong>Seeing is Fixing: Cross-Modal Reasoning with Multimodal LLMs for Visual Software Issue Fixing</strong>
-						<p><i>ACM/IEEE International Conference on Automated Software Engineering</i></p>
-						<p>
-							Kai Huang, Jian Zhang, Xiaofei Xie, <u>Chunyang Chen</u>
-						</p>
-						<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2506.16136">PDF</a></span>
-						&middot; 
-						<span class="refs-acceptance"><a target="_blank" href="https://conf.researchr.org/info/icse-2023/awards"><font color="red">ACM SIGSOFT Distinguished Paper Award</font></a></span>
-						&middot; 
-						<span class="refs-acceptance"><a target="_blank" href="https://www.swebench.com/index.html"><font color="red">Top in SWE-bench-MultiModal</font></a></span> 
-				</li>
-				
-				<li>
-					[TOSEM-25] <strong>An Empirical Study on Challenges for LLM Developers</strong>
-					<p><i>ACM Transactions on Software Engineering and Methodology</i></p>
-					<p>
-						Xiang Chen, Chaoyang Gao, <u>Chunyang Chen</u>, Guangbei Zhang, Yong Liu
-					</p>
-					<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2408.05002">PDF</a></span>
-				</li>
-				
-				<li>
-					[TSE-24] <strong>Software Testing with Large Language Model: Survey, Landscape, and Vision</strong>
-					<p><i>IEEE Transactions on Software Engineering</i></p>
-					<p>
-						Junjie Wang, Yuchao Huang, <u>Chunyang Chen</u>, Zhe Liu, Song Wang, Qing Wang
-					</p>
-					<span class="refs-link"><a target="_blank" href="https://arxiv.org/abs/2307.07221">PDF</a></span>
-				</li>
-
-				
-					
-
-				<font size="3">See more papers in the <a target="_blank" href="publications.html">full list</a>, and our recently works about <strong>LLM</strong> can be seen in the <a href="LLMpublications.html">seperate page</a>.</font>
-
-			</ol>
-			
-			
-		
-			<h2>
-			<a id="team" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supervision</h2>
-			<ul>
-			<h3>
-			
-			<a id="postdoc" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Postdoc</h4>
-				<ul>
-
-					<li>
-						<a target="_blank" href="https://www.seysc.com/">Shengcheng Yu</a> (Feb.2025-), Technical University of Munich
-					</li>
-					
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/seai/team/yanqi-su/">Yanqi Su</a> (Sep.2024-), Technical University of Munich
-						<ul style="list-style: none;">
-							<li><i class="fa-solid fa-award"></i> Incoming Assistant Professor at University of Western Australia</li>
-						</ul>
-					</li>
-
-					<li>
-						<a target="_blank" href="https://mark-h-meng.github.io/">Mark Huasong Meng</a> (Sep.2024-Oct.2025), Technical University of Munich
-						<ul style="list-style: none;">
-							<li>First job: Assistant Professor at Dublin City University (DCU) </li>
-							<li><i class="fa-solid fa-award"></i> Alexander von Humboldt Fellowship</li>
-						</ul>
-					</li>
-
-					<li>
-						<a target="_blank" href="https://wcgu1993.github.io/WenchaoGU.github.io/">Wenchao Gu</a> (Jun.2024-Oct.2025), Technical University of Munich
-					</li>
-
-					
-				</ul>
-
-			<h3>
-			<a id="phd" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>PhD</h4>
-				<ul>
-					<li>
-						<a target="_blank" href="">Emilija Gjorgjevska</a> (Jan.2026-), Technical University of Munich
-					</li>
-
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/en/seai/team/zhen-tao/">Zhen Tao</a> (Feb.2025-), Technical University of Munich
-					</li>
-
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/seai/team/lianlian-qi/">Lianlian Qi</a> (Dec.2024-), Technical University of Munich (with Austrian Institute of Technology)
-					</li>
-
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/en/seai/team/zixu-wang/">Zixu Wang</a> (Dec.2024-), Technical University of Munich (with Infineon)
-					</li>
-
-					<li>
-						<a target="_blank" href="">Ezgi Sarıkayak</a> (Nov.2024-), Technical University of Munich (with Siemens)
-					</li>
-					
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/en/seai/team/kai-huang/">Kai Huang</a> (Nov.2024-), Technical University of Munich
-						<ul style="list-style: none;">
-							<li><a target="_blank" href=""><i class="fa-solid fa-award"></i></a> ACM SIGSOFT Distinguished Paper Award at ASE 2025 <a target="_blank" href="https://arxiv.org/abs/2506.16136"><i class="fa-solid fa-file-pdf"></i></a></li>
-							<li><a target="_blank" href="https://www.daad.de/de/im-ausland-studieren-forschen-lehren/forschen-im-ausland/ifi/"><i class="fa-solid fa-award"></i></a> DAAD IFI Scholarship</li>
-						</ul>
-					</li>
-					
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/en/seai/team/shen-hu/">Shen Hu</a> (Nov.2024-), Technical University of Munich
-						<ul style="list-style: none;">
-							<li><a target="_blank" href="https://en.bidt.digital/funding/graduate-center-for-doctoral-researchers/"><i class="fa-solid fa-award"></i></a> Bavarian Research Institute for Digital Transformation (BIDT) Scholarship</li>
-						</ul>
-					</li>
-					
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/seai/team/yuetian-mao/">Yuetian Mao</a> (Jun.2024-), Technical University of Munich
-					</li>
-
-					<li>
-						<a target="_blank" href="https://www.cs.cit.tum.de/seai/team/ludwig-felder/">Ludwig Felder</a> (Jun.2024-), Technical University of Munich
-						<ul style="list-style: none;">
-							<li><a target="_blank" href=""><i class="fa-solid fa-award"></i></a> Software Campus Funds</li>
-						</ul>
-					</li>
-
-					<li>
-						<a target="_blank" href="https://sidongfeng.github.io/">Sidong Feng</a> (May.2023-), Monash University
-						<ul style="list-style: none;">
-							<li><a target="_blank" href=""><i class="fa-solid fa-award"></i></a> Amazon Research Award 2025</li>
-							<li><a target="_blank" href=""><i class="fa-solid fa-award"></i></a> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems & Cybersecurity, Monash University 2025</li>
-							<li><a target="_blank" href="https://en.wikipedia.org/wiki/Chinese_government_award_for_outstanding_self-financed_students_abroad"><i class="fa-solid fa-award"></i></a> Chinese Government Award for Outstanding Self-financed Students Abroad 2024</li>
-							<li><a target="_blank" href="https://conf.researchr.org/info/icse-2023/awards"><i class="fa-solid fa-award"></i></a> ACM SIGSOFT Distinguished Paper Award at ICSE 2023 <a target="_blank" href="https://arxiv.org/abs/2212.05203"><i class="fa-solid fa-file-pdf"></i></a></li>
-						</ul>
-					</li>
-
-
-					<li>
-						Yujin Huang (Dec.2022-), Monash University --> University of Melbourne (Co-supervised with Xingliang Yuan)
-						<ul style="list-style: none;">
-							<li><a target="_blank" href="https://www.monash.edu/it/news/2023/deans-awards-for-excellence-in-research"><i class="fa-solid fa-award"></i></a> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems & Cybersecurity, 2023, Monash University</li>
-						</ul>
-
-					</li>
-
-					<li>
-						Jian Gu (Nov.2022-), Monash University (Co-supervised with Aldeida Aleti)
-					</li>
-
-					<li>
-						Han Wang (May.2021-Nov.2024), Monash University
-						<ul style="list-style: none;">
-							<li>First job: Software Engineer in InvestorHub. </li>
-							<li><a target="_blank" href="https://www.monash.edu/it/research/awards-and-successes/graduate-researcher-achievements/deans-award-for-research-excellence-by-a-graduate-research-student"><i class="fa-solid fa-award"></i></a> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems & Cybersecurity, 2022, Monash University</li>
-						</ul>
-					</li>
-
-					<!--
-					<li>
-						<a target="_blank" href="https://amanda-zheng.github.io/">Xin Zheng</a> (Apr.2021-Aug.2024), Monash University (Co-supervised with Shirui Pan)
-						<ul style="list-style: none;">
-							<li>First job: Lecturer/Assistant Prof in Griffith University, Australia. </li>
-						</ul>
-
-					</li>
-					-->
-
-					<li>
-						Han Hu (Jan.2021-Jul.2024), Monash University
-						
-					</li>
-
-					<li>
-						Suyu Ma (Mar.2020-Aug.2024), Monash University (Co-supervised with John Grundy)
-						<ul style="list-style: none;">
-							<li>First job: Research Scientist in Data61, CSIRO. </li>
-						</ul>
-					</li>
-
-					<li>
-						<a target="_blank" href="https://chenjshnn.github.io/">Jieshan Chen</a> (Aug.2018- Feb.2022), Australian National University (Co-supervised with Zhenchang Xing)
-						<ul style="list-style: none;">
-							<li>First job: Research Scientist in Data61, CSIRO. </li>
-							<li><a target="_blank" href="https://2020.icse-conferences.org/info/awards"><i class="fa-solid fa-award"></i></a> ACM SIGSOFT Distinguished Paper Award at ICSE 2020 <a target="_blank" href="https://arxiv.org/abs/2003.00380"><i class="fa-solid fa-file-pdf"></i></a></li>
-						</ul>
-						 
-					</li>
-				</ul>
-			<h3>
-
-			<a id="visiting" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Visiting/Remote students</h4>
-				<ul>
-					<li>
-						<a target="_blank" href="https://zheliu6.github.io/">Zhe Liu</a> (Jan.2020- Jun.2023), Chinese Academy of Sciences
-						<ul style="list-style: none;">
-							<li>First job: Assistant Prof in Institute of Software, Chinese Academy of Sciences. </li>
-							<li><a target="_blank" href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions"><i class="fa-solid fa-award"></i></a> Best Paper Honorable Mention in CHI 2024</li>
-							<li><a target="_blank" href="https://src.acm.org/"><i class="fa-solid fa-award"></i></a> ACM Student Research Competition Grand Finals Winner, 2023</li>
-						</ul>
-					</li>
-
-					<li>
-						Yuhui Su (Jul.2020-Aug.2022), Chinese Academy of Sciences
-					</li>
-
-					<li>
-						Tianming Zhao (Jan.2019-Dec.2020), Jilin University
-					</li>
-
-					<li>
-						Kaibo Cao (Jul.2019-Dec.2020), Nanjing University
-						<ul style="list-style: none;">
-							<li><a target="_blank" href="https://conf.researchr.org/track/icse-2021/icse-2021-awards#Award-Recipients-at-ICSE-2021"><i class="fa-solid fa-award"></i></a> ACM SIGSOFT Distinguished Paper Award at ICSE 2021 <a target="_blank" href="https://arxiv.org/pdf/2102.00826"><i class="fa-solid fa-file-pdf"></i></a></li>
-						</ul>
-					</li>
-
-					<li>
-						Zhidan Yuan (Sep.2019-Dec.2019), Nantong University
-					</li>
-
-					<li>
-						Dun Zhang (Jan.2019-Apr.2019), Nantong University
-					</li>
-
-				</ul>
-			<h3>
-
-			<a id="alumni" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Master/Bachelor
-		    </h3>
-				<ul>
-				  <li>2022 (Monash) Dustin Minh Duc Vu [<a target="_blank" href="https://github.com/vuminhduc796/Voicify">project</a>], Jason Siu [<a target="_blank" href="https://algaespace.github.io/interaction_gallery/Gallery_static/index_page/index.html">project</a>]</li>
-				  <li>2021 (Monash) Ruiqi Dong [<a target="_blank" href="">project</a>], Minh Nguyen [<a target="_blank" href="">project</a>], An-Chieh Chang [<a target="_blank" href="">project</a>]</li>
-				  <li>2020-2021 (Monash) Chao Wu [<a target="_blank" href="">project</a>], Yujin Huang [<a target="_blank" href="https://github.com/Jinxhy/AppAIsecurity">project</a>], 	Ishan Joshi [<a target="_blank" href="https://github.com/ish-joshi/ChartAccessibilityService">project</a>], Xinyan Li [<a target="_blank" href="">project</a>] </li>
-					<li>2018~2019 (ANU) Chen Xi [<a target="_blank" href="https://github.com/u6013686/XiChen-project">project</a>], Kai Xi [<a target="_blank" href="">project</a>], Wang Ruiqi [<a target="_blank" href="https://arxiv.org/abs/2008.06895">project</a>], Wang Yuyang [<a target="_blank" href="">project</a>],  Feng Sidong [<a target="_blank" href="https://chunyang-chen.github.io/publication/designGallery_CSCW19.pdf">project</a>]  </li>
-					<li>2018 (ANU) Wang Xu [<a target="_blank" href="#">project</a>], Qiu Zhuoqi [<a target="_blank" href="https://github.com/Zhuoqi-QIU-Ezio/empirical_study_multilingual_QA">project</a>], Huang Yi [<a target="_blank" href="https://github.com/hy3440/diffSimilarTech">project</a>], Yang Renfei [<a target="_blank" href="https://github.com/yrfyang/yrf-reseach-project">project</a>], Li Yuchen [<a target="_blank" href="#">project</a>], Li Zhiheng [<a target="_blank" href="#">project</a>]</li>
-					<li>2017~2018 (NTU) Chow Wei Jun Bernard [<a target="_blank" href="https://github.com/bernardcwj/FYP_2017">project</a>], Koh Hong Da [<a target="_blank" href="https://github.com/lunalite/UITestLearning">project</a>], Lin Tian [<a target="_blank" href="https://github.com/lint0011/FYP">project</a>]</li>
-					<li>2017 (ANU) Wang Qiancheng [<a target="_blank" href="https://github.com/WrynnWang/Build-Multi-Language-Stackoverflow-or-not-">project</a>], Cao Jixuan [<a target="_blank" href="https://github.com/cjxuan1995/DataPreprocessing">project</a>], Yuan Tonghui [<a target="_blank" href="https://github.com/TongTY/Individual-Project">project</a>]</li>
-					<li>2016~2017 (NTU) Kent Ong Long Xiong [<a target="_blank" href="http://similarpackage.appspot.com/">project</a>], Tee Li Yin [<a target="_blank" href="https://github.com/liyin11/fyp">project</a>], Toh Gao Han [<a target="_blank" href="https://github.com/GaoHan91/Eclipse-API-Recommendation-Plugin.git">project</a>], Linus Lim Ji Wei [<a target="_blank" href="https://github.com/linusljw/FYP-AY16-17">project</a>]</li>
-					<li>2015~2016 (NTU) Teong Ke Ming [<a target="_blank" href="https://github.com/keming2606/FYP-AY201516.git">project</a>], Lee Yong Ming Leon [<a target="_blank" href="https://github.com/leonbrain/FYP_knowledgeGraph.git">project</a>], Wang Ximing [<a target="_blank" href="https://github.com/Striderk/se-dict-browser-extension">project</a>]</li>
-				</ul>
-
-			</ul>
-
-
-			<h2>
-			<a id="teach" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Teaching
-		    </h2>
-			<ul>
-				<li>2025 Winter | Lecturer | CITHN2014-Foundations and Application of Generative AI</li>
-				<li>2025 Winter | Lecturer | CITHN3003-Advanced Topics on Software Engineering</li>
-				<li>2025 Summer | Lecturer | CITHN2014-Foundations and Application of Generative AI</li>
-				<li>2024 Winter | Lecturer | CITHN3003-Advanced Topics on Software Engineering</li>
-				<li>2024 Winter | Lecturer | CITHN2014-Foundations and Application of Generative AI</li>
-				<li>2024 Summer | Lecturer | CITHN4004-Foundations and Application of Generative AI</li>
-				<li>2024 Summer | Lecturer | INHN0015-Seminar Automated Mobile App Testing</li>
-				<li>2023 S1 | Lecturer & Chief examiner | FIT3170-Software Engineering Practice</li>
-				<li>2022 FY | Lecturer & Chief examiner | FIT3170-Software Engineering Practice</li>
-				<li>2021 FY | Lecturer & Chief examiner | FIT3170-Software Engineering Practice</li>
-				<li>2020 S1 | Lecturer & Chief examiner | FIT9136-Algorithms and Programming Foundations in Python</li>
-				<li>2019 S1 | Lecturer & Chief examiner | FIT9133-Programming Foundations in Python</li>
-				<li>2017 Fall | Tutorial advisor | CZ3003-Software Systems Analysis & Design</li>
-				<li>2017 Spring | Lab assistant | CZ3003-Software Systems Analysis & Design</li>
-				<li>2016 Fall   | Lab assistant | CE2006-Software Engineering </li>
-				<li>2016 Spring | Lab assistant | CZ2002-Objective Oriented Design & Programming </li>
-				<li>2015 Fall   | Lab assistant | CZ3003-Software System Analysis & Design </li>
-			</ul>
-			
-			<h2>
-			<a id="service" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Service
-		    </h2>
-		    <ul>
-		    	<h3>
-					<a id="editor" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Organisation
-		    	</h3>
-		    		<ul>
-							<li>Guest Editor, Special Issue on <a target="_blank" href="https://emsejournal.github.io/special_issues/2025_SI_LLM4Security.html">When Software Security Meets Large Language Models: Opportunities and Challenges</a>, Springer Empirical Software Engineering</li>
-							<li>Schedule <a target="_blank" href="https://conf.researchr.org/committee/icse-2023/icse-2023-organising-committee">Co-Chair</a>: 45th International Conference on Software Engineering (ICSE-23)</li>
-							<li>Volunteer <a target="_blank" href="https://conf.researchr.org/track/ase-2021/ase-2021-student-volunteers">Co-Chair</a>: IEEE/ACM International Conference on Automated Software Engineering (ASE-21)</li>
-							<li><a target="_blank" href="https://icsme2021.github.io/program/Schedule.html">Keynote</a> at Doctoral Symposium: IEEE International Conference on Software Maintenance and Evolution (ICSME-21)</li>
-		    			<li>Student Research Competition <a target="_blank" href="https://conf.researchr.org/track/ase-2020/ase-2020-student-research-competition">Co-Chair</a>: IEEE/ACM International Conference on Automated Software Engineering (ASE-20)</li>
-		    			<li>Guest Editor, Special Issue on <a target="_blank" href="https://static.springer.com/sgw/documents/1656130/application/pdf/CFP_+ASEJ+Special+Issues+on+Automated+App+Development.pdf">Automated Software Engineering for Mobile Applications</a>, Springer Automated Software Engineering</li>
-		    		</ul>
-
-		    	<h3>
-					<a id="conf" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Program Committee or Associate Chair
-		    	</h3>
-		    		<ul>
-		    			<li> International Conference on Software Engineering (ICSE-27,26,25,24,23)</li>
-		    			<li> ACM Foundations of Software Engineering (FSE-26,25,24)</li>
-		    			<li> IEEE/ACM International Conference on Automated Software Engineering (ASE-26,25,24,23,22)</li>
-		    			<li> ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA-25,24)</li>
-		    			<li> IEEE International Symposium on Software Reliability Engineering (ISSRE-24)</li>
-		    			<li> ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW-24)</li>
-		    			<li> International Joint Conference on Artificial Intelligence (IJCAI-23,22,21)</li>
-		    			<li> The ACM International Conference on Supporting Group Work (GROUP-22)</li>
-		    			<li> The International Conference on Software Maintenance and Evolution (ICSME-22,21,20,18)</li>
-		    			<li> ACM Student Research Competition (SRC-22,21)</li>
-		    			<li> ACM Symposium on User Interface Software and Technology (UIST-21) (Reviewer)</li>
-						  <li> The Mining Software Repositories (MSR-23,22,21,20,19)</li>
-						  <li> Asian Conference on Machine Learning (ACML-21,20)</li>
-						  <li> International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering (RAISE-21,20)</li>
-						  <li> IEEE International Conference on Program Comprehension, Replication and Negative Results Track (ICPC-21)</li>
-						  <li> International Conference on Predictive Models and Data Anlaysis in Software Engineering (PROMISE-21)</li>
-		    			<li> IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER-23,20,19)</li>
-						  <li> Asia-Pacific Software Engineering Conference (APSEC-20)</li>
-						  <li> Asia-Pacific Symposium on Internetware (Internetware-20,21,22)</li>
-						  <li> IEEE/ACM International Conference on Automated Software Engineering (ASE tool-19)</li>
-		    		</ul>
-
-		    	<h3>
-					<a id="jour" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Journal Reviewer
-		    	</h3>
-					<ul>
-						<li>Nature Machine Intelligence (NMI)</li>
-						<li>Communications of the ACM</li>
-						<li>IEEE Transactions on Software Engineering (TSE)</li>
-						<li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
-						<li>IEEE Transactions on Dependable and Secure Computing (TDSC)</li>
-						<li>IEEE Transactions on Information Forensics and Security (TIFS)</li>
-						<li>IEEE Transactions on Reliability (TRel)</li>
-						<li>Springer Empirical Software Engineering (EMSE)</li>
-						<li>Springet Automated Software Engineering (AUSE)</li>
-						<li>Elsevier Journal of Systems and Software (JSS)</li>
-						<li>IEEE Software</li>
-						<li>Journal of Software: Evolution and Process</li>
-						<li>Journal of Computer Science and Technology (JCST)</li>
-						<li>International Journal of Human-Computer Interaction (IJHCI)</li>
-
-
-						<h3>
-					<a id="jour" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Funding Reviewer
-		    	</h3>
-					<ul>
-						<li>DFG - Deutsche Forschungsgemeinschaft</li>
-						<li>DP, DECRA, LP, Australian Research Council</li>
-						<li>Luxembourg National Research Fund</li>
-						<li>Singapore Ministry of Education (MOE) Tier 3</li>
-						<li>Eliteprogramm für Postdoktorandinnen und Postdoktoranden der Baden-Württemberg Stiftung</li>
-					</ul>
-		    </ul>
-			
-<footer>
-	<p>&copy;Copyright | Chunyang Chen | Last update in Jan, 2026</p>
-</footer>
-		  		
-		</section>
-
-      <aside id="sidebar">
-			  <img src="picture/chunyangChen_headshot.jpg" style="width:189px;height:252px;">
-			  <p>chun-yang.chen [at] tum.de</p>
-			  <a target="_blank" href="https://scholar.google.com/citations?user=3tyGlPsAAAAJ"><img src="picture/icons8-google-scholar.svg"></a>
-			  <a target="_blank" href="https://twitter.com/chun_yang_chen"><img src="picture/icons8-twitter.svg"></a>
-			  <a target="_blank" href="https://dblp.org/pid/180/7246.html"><img src="picture/dblp.svg" style="width:36px;height:36px;"></a>
-			  <a target="_blank" href="https://www.linkedin.com/in/chunyang-chen-503762100"><img src="picture/linkedIn.svg.png" style="width:36px;height:36px;"></a>
-      </aside>
+    </nav>
+
+    <main class="site-shell">
+      <div class="page-layout">
+        <div class="content-column">
+          <section class="hero">
+            <span class="hero-kicker">Technical University of Munich</span>
+            <h1>Chunyang Chen</h1>
+            <p class="hero-subtitle">Research in software engineering, AI, LLMs, mobile systems, HCI, accessibility, and security</p>
+            <p class="hero-summary">
+              I work in the Department of Computer Science at the
+              <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer">Technical University of Munich</a>.
+              I obtained my PhD from
+              <a href="https://www.ntu.edu.sg/scse" target="_blank" rel="noopener noreferrer">Nanyang Technological University</a>
+              (NTU), Singapore, and my research spans software engineering, AI, deep learning, natural language processing,
+              and human-computer interaction. My first name, "Chunyang," sounds like "train young," which is exactly my job in the university.
+            </p>
+          </section>
+
+          <section class="content-section" id="research-focus">
+            <div class="section-heading">
+              <h2>Research focus</h2>
+            </div>
+            <p class="lead-copy">
+              Specifically, I apply AI, machine learning, NLP, and lightweight program analysis techniques in the
+              following directions:
+            </p>
+            <ul class="research-list">
+              <li>
+                AI(LLM)-assisted automated mobile app development including requirement elicitation
+                [<a href="https://arxiv.org/pdf/1902.00476.pdf" target="_blank" rel="noopener noreferrer">ICSE'19a</a>,
+                <a href="https://arxiv.org/abs/2203.06420" target="_blank" rel="noopener noreferrer">TSE'22</a>],
+                UI design
+                [<a href="publication/designGallery_CSCW19.pdf" target="_blank" rel="noopener noreferrer">CSCW'19</a>,
+                <a href="https://arxiv.org/abs/2008.06895" target="_blank" rel="noopener noreferrer">CSCW'20</a>,
+                <a href="https://arxiv.org/pdf/2101.09978" target="_blank" rel="noopener noreferrer">ICSE'21a</a>],
+                UI code generation
+                [<a href="publication/ui2code.pdf" target="_blank" rel="noopener noreferrer">ICSE'18</a>,
+                <a href="publication/UIsearch_TOSEM20.pdf" target="_blank" rel="noopener noreferrer">TOSEM'20</a>,
+                <a href="https://arxiv.org/abs/2008.05132" target="_blank" rel="noopener noreferrer">FSE'20</a>],
+                app GUI testing
+                [<a href="https://arxiv.org/abs/2201.12085" target="_blank" rel="noopener noreferrer">CHI'22</a>,
+                <a href="https://arxiv.org/abs/2212.05203" target="_blank" rel="noopener noreferrer">ICSE'23a</a>,
+                <a href="https://arxiv.org/abs/2212.04732" target="_blank" rel="noopener noreferrer">ICSE'23b</a>],
+                usability
+                [<a href="publication/Seenomaly_ICSE20.pdf" target="_blank" rel="noopener noreferrer">ICSE'20a</a>,
+                <a href="https://arxiv.org/abs/2009.01417" target="_blank" rel="noopener noreferrer">ASE'20</a>,
+                <a href="http://arxiv.org/abs/2212.04388" target="_blank" rel="noopener noreferrer">ASE'22</a>],
+                accessibility testing
+                [<a href="https://arxiv.org/abs/2003.00380" target="_blank" rel="noopener noreferrer">ICSE'20b</a>,
+                <a href="https://arxiv.org/pdf/2203.06422.pdf" target="_blank" rel="noopener noreferrer">TSE'21</a>],
+                and bug replay
+                [<a href="https://arxiv.org/abs/2112.04128" target="_blank" rel="noopener noreferrer">ICSE'22</a>,
+                <a href="https://arxiv.org/abs/2302.00886" target="_blank" rel="noopener noreferrer">ICSE'23</a>,
+                <a href="https://arxiv.org/abs/2306.01987" target="_blank" rel="noopener noreferrer">ICSE'24</a>].
+              </li>
+              <li>
+                AI-empowered mining software repositories including library/API migration
+                [<a href="publication/diffSimilarTech.pdf" target="_blank" rel="noopener noreferrer">ASE'18a</a>,
+                <a href="publication/similarAPI_TSE19.pdf" target="_blank" rel="noopener noreferrer">TSE'19a</a>],
+                collaborative editing
+                [<a href="publication/correctSentence.pdf" target="_blank" rel="noopener noreferrer">CSCW'17</a>,
+                <a href="publication/proactiveEdit_cscw18.pdf" target="_blank" rel="noopener noreferrer">CSCW'18</a>,
+                <a href="https://arxiv.org/abs/2109.09343" target="_blank" rel="noopener noreferrer">CSCW'21</a>],
+                query reformulation
+                [<a href="publication/ASE2016_gbchen.pdf" target="_blank" rel="noopener noreferrer">ASE'16</a>,
+                <a href="https://arxiv.org/pdf/2102.00826" target="_blank" rel="noopener noreferrer">ICSE'21c</a>],
+                and thesaurus construction
+                [<a href="publication/seThesaurus.pdf" target="_blank" rel="noopener noreferrer">ICSE'17</a>,
+                <a href="publication/similarAPI_TSE19.pdf" target="_blank" rel="noopener noreferrer">TSE'19</a>].
+              </li>
+              <li>
+                Robustness and security of deep learning and mobile apps including on-device model attack
+                [<a href="https://arxiv.org/pdf/2101.04401" target="_blank" rel="noopener noreferrer">ICSE'21-SEIP</a>,
+                <a href="https://arxiv.org/pdf/2204.11075.pdf" target="_blank" rel="noopener noreferrer">TIFS'22</a>],
+                backdoor attack
+                [<a href="https://arxiv.org/pdf/2101.06896" target="_blank" rel="noopener noreferrer">ICSE'21d</a>],
+                phishing attack
+                [<a href="publication/phishingApp_TDSC19.pdf" target="_blank" rel="noopener noreferrer">TDSC'19</a>],
+                and deep learning defence
+                [<a href="https://arxiv.org/pdf/1803.07519.pdf" target="_blank" rel="noopener noreferrer">ASE'18</a>,
+                <a href="https://nzjohng.github.io/publications/papers/issta2023.pdf" target="_blank" rel="noopener noreferrer">ISSTA'23</a>].
+              </li>
+              <li>
+                <strong>Agentic LLMs</strong> for software engineering and HCI including software testing
+                [<a href="https://arxiv.org/abs/2212.04732" target="_blank" rel="noopener noreferrer">ICSE'23</a>,
+                <a href="https://arxiv.org/abs/2305.09434" target="_blank" rel="noopener noreferrer">ICSE'24a</a>,
+                <a href="https://arxiv.org/abs/2310.15657" target="_blank" rel="noopener noreferrer">ICSE'24b</a>,
+                <a href="https://arxiv.org/abs/2307.07221" target="_blank" rel="noopener noreferrer">TSE'24</a>],
+                bug replay
+                [<a href="https://arxiv.org/abs/2407.05165" target="_blank" rel="noopener noreferrer">ISSTA'24</a>,
+                <a href="https://arxiv.org/abs/2306.01987" target="_blank" rel="noopener noreferrer">ICSE'24c</a>,
+                <a href="https://arxiv.org/abs/2310.07128" target="_blank" rel="noopener noreferrer">ICSE'24d</a>],
+                software accessibility
+                [<a href="https://arxiv.org/abs/2404.02706" target="_blank" rel="noopener noreferrer">CHI'24</a>],
+                smart assistant development
+                [<a href="https://arxiv.org/abs/2401.14268" target="_blank" rel="noopener noreferrer">UIST'24</a>],
+                and dataset construction
+                [<a href="https://arxiv.org/abs/2405.07090" target="_blank" rel="noopener noreferrer">CHI'24</a>].
+                All LLM-relevant works can be found on the <a href="LLMpublications.html">dedicated page</a>.
+              </li>
+            </ul>
+          </section>
+
+          <section class="content-section" id="news">
+            <div class="section-heading">
+              <h2>News</h2>
+            </div>
+            <ul class="news-list">
+              <li>2026 Jan, we received the Gemini Academic Program Award from Google Cloud.</li>
+              <li>
+                2025 Nov, we received the
+                <a href="https://www.amazon.science/research-awards/program-updates/63-amazon-research-award-recipients-announced-spring-2025" target="_blank" rel="noopener noreferrer">Amazon Research Award</a>
+                in Agentic AI track.
+              </li>
+              <li>
+                2025 Oct, we received the ACM SIGSOFT Distinguished Paper Award in ASE 2025 for
+                “Seeing is Fixing: Cross-Modal Reasoning with Multimodal LLMs for Visual Software Issue Fixing”.
+              </li>
+              <li>
+                2024 May, we received the Best Paper Honorable Mention in
+                <a href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions" target="_blank" rel="noopener noreferrer">CHI 2024</a>.
+              </li>
+            </ul>
+          </section>
+
+          <section class="content-section" id="open-positions">
+            <div class="section-heading">
+              <h2>Open positions</h2>
+            </div>
+            <p>
+              I am always looking for self-motivated PhD students with full scholarship through the
+              <a href="https://www.cs.cit.tum.de/en/seai/open-positions/" target="_blank" rel="noopener noreferrer">open positions page</a>,
+              as well as long-term visiting scholars, postdocs and students. For master and bachelor students at TUM, we provide a
+              list of
+              <a href="https://www.cs.cit.tum.de/en/seai/theses/" target="_blank" rel="noopener noreferrer">thesis projects</a>;
+              please follow the instructions there.
+            </p>
+          </section>
+          <section class="content-section" id="award">
+            <div class="section-heading">
+              <h2>Awards</h2>
+            </div>
+            <ul class="award-list">
+              <li>Gemini Academic Program Award from Google Cloud</li>
+              <li>
+                ACM SIGSOFT Distinguished Paper Award in
+                <a href="https://www2.sigsoft.org/awards/distinguishedpaper/" target="_blank" rel="noopener noreferrer">ASE 2025</a>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2506.16136" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                <a href="https://www.amazon.science/research-awards/program-updates/63-amazon-research-award-recipients-announced-spring-2025" target="_blank" rel="noopener noreferrer">Amazon Research Award</a>
+                in AWS Agentic AI 2025
+              </li>
+              <li>
+                Best Paper Honorable Mention in
+                <a href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions" target="_blank" rel="noopener noreferrer">CHI 2024</a>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2404.02706" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li><a href="https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/252" target="_blank" rel="noopener noreferrer">Discovery Early Career Researcher Award (DECRA)</a> from Australian Research Council</li>
+              <li>ACM SIGSOFT Early Career Researcher Award <a href="https://sigsoft.medium.com/sigsoft-awards-2023-34c6e55b5a97" target="_blank" rel="noopener noreferrer">2023</a></li>
+              <li>
+                ACM SIGSOFT Distinguished Paper Award in
+                <a href="https://conf.researchr.org/info/icse-2023/awards" target="_blank" rel="noopener noreferrer">ICSE 2023</a>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2212.05203" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                ACM SIGSOFT Distinguished Paper Award in
+                <a href="https://conf.researchr.org/track/icse-2021/icse-2021-awards#Award-Recipients-at-ICSE-2021" target="_blank" rel="noopener noreferrer">ICSE 2021</a>
+                <span class="refs-link"><a href="https://arxiv.org/pdf/2102.00826" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li><a href="https://www.monash.edu/it/research/awards-and-successes/faculty-awards/deans-award-for-research-impact-economic-and-social-impact" target="_blank" rel="noopener noreferrer">Dean's Award for Research Impact (Economic and Social Impact)</a> in Faculty of IT, Monash University</li>
+              <li>Facebook Research Award in <a href="https://research.fb.com/blog/2020/06/announcing-the-winners-of-the-2020-probability-and-programming-research-awards/" target="_blank" rel="noopener noreferrer">Probability and Programming 2020</a></li>
+              <li>
+                ACM SIGSOFT Distinguished Paper Award in
+                <a href="https://2020.icse-conferences.org/info/awards" target="_blank" rel="noopener noreferrer">ICSE 2020</a>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2003.00380" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                ACM SIGSOFT Distinguished Paper Award in
+                <a href="http://www.ase2018.com/?p=awards" target="_blank" rel="noopener noreferrer">ASE 2018</a>
+                <span class="refs-link"><a href="https://arxiv.org/abs/1803.07519" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                Best Paper Award in
+                <a href="http://saner.inf.usi.ch/index.php" target="_blank" rel="noopener noreferrer">SANER 2016</a>
+                <span class="refs-link"><a href="publication/analogical_libraries.pdf" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                Best Tool Demo in
+                <a href="http://ase-conferences.org/olbib/" target="_blank" rel="noopener noreferrer">ASE 2016</a>
+                <span class="refs-link"><a href="publication/analogyTool.pdf" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="content-section" id="selected-publications">
+            <div class="section-heading">
+              <h2>Selected recent publications</h2>
+            </div>
+            <ol class="publication-list">
+              <li>
+                [ICSE-26] <strong>Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature Testing</strong>
+                <p><i>IEEE/ACM International Conference on Software Engineering</i></p>
+                <p>Sidong Feng, Changhao Du, Huaxiao Liu, Qingnan Wang, Zhengwei Lv, Mengfei Wang, <u>Chunyang Chen</u></p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2506.17539" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                [ICSE-26] <strong>A Semantic-based Optimization Approach for Repairing LLMs: Case Study on Code Generation</strong>
+                <p><i>IEEE/ACM International Conference on Software Engineering</i></p>
+                <p>Jian Gu, Aldeida Aleti, <u>Chunyang Chen</u>, Hongyu Zhang</p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2503.12899" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                [ICSE-26] <strong>Repair Ingredients Are All You Need: Improving Large Language Model-Based Program Repair via Repair Ingredients Search</strong>
+                <p><i>IEEE/ACM International Conference on Software Engineering</i></p>
+                <p>Jiayi Zhang, Kai Huang, Jian Zhang, Yang Liu, <u>Chunyang Chen</u></p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2506.23100" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                [ICSE-26] <strong>Think Outside the Box: Automating Inter-App Functionality Testing via Memory Implanting and Reasoning</strong>
+                <p><i>IEEE/ACM International Conference on Software Engineering</i></p>
+                <p>Mengzhuo Chen, Zhe Liu, <u>Chunyang Chen</u>, Junjie Wang, Yangguang Xue, Boyu Wu, Libin Wu, Qing Wang</p>
+                <span class="pending-link">PDF forthcoming</span>
+              </li>
+              <li>
+                [ASE-25] <strong>Seeing is Fixing: Cross-Modal Reasoning with Multimodal LLMs for Visual Software Issue Fixing</strong>
+                <p><i>ACM/IEEE International Conference on Automated Software Engineering</i></p>
+                <p>Kai Huang, Jian Zhang, Xiaofei Xie, <u>Chunyang Chen</u></p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2506.16136" target="_blank" rel="noopener noreferrer">PDF</a></span>
+                <span class="refs-acceptance"><a href="https://www2.sigsoft.org/awards/distinguishedpaper/" target="_blank" rel="noopener noreferrer">ACM SIGSOFT Distinguished Paper Award</a></span>
+                <span class="refs-acceptance"><a href="https://www.swebench.com/index.html" target="_blank" rel="noopener noreferrer">Top in SWE-bench-MultiModal</a></span>
+              </li>
+              <li>
+                [TOSEM-25] <strong>An Empirical Study on Challenges for LLM Developers</strong>
+                <p><i>ACM Transactions on Software Engineering and Methodology</i></p>
+                <p>Xiang Chen, Chaoyang Gao, <u>Chunyang Chen</u>, Guangbei Zhang, Yong Liu</p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2408.05002" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+              <li>
+                [TSE-24] <strong>Software Testing with Large Language Model: Survey, Landscape, and Vision</strong>
+                <p><i>IEEE Transactions on Software Engineering</i></p>
+                <p>Junjie Wang, Yuchao Huang, <u>Chunyang Chen</u>, Zhe Liu, Song Wang, Qing Wang</p>
+                <span class="refs-link"><a href="https://arxiv.org/abs/2307.07221" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              </li>
+            </ol>
+            <p class="small-note">
+              See more papers in the <a href="publications.html">full list</a>, and recent LLM-related works on the
+              <a href="LLMpublications.html">LLM publications page</a>.
+            </p>
+          </section>
+          <section class="content-section" id="team">
+            <div class="section-heading">
+              <h2>Supervision</h2>
+            </div>
+            <div class="content-stack">
+              <div class="subsection-block" id="postdoc">
+                <h3>Postdoc</h3>
+                <ul class="compact-list">
+                  <li><a href="https://www.seysc.com/" target="_blank" rel="noopener noreferrer">Shengcheng Yu</a> (Feb.2025-), Technical University of Munich</li>
+                  <li>
+                    <a href="https://www.cs.cit.tum.de/seai/team/yanqi-su/" target="_blank" rel="noopener noreferrer">Yanqi Su</a> (Sep.2024-), Technical University of Munich
+                    <ul class="nested-awards">
+                      <li>Incoming Assistant Professor at University of Western Australia</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://mark-h-meng.github.io/" target="_blank" rel="noopener noreferrer">Mark Huasong Meng</a> (Sep.2024-Oct.2025), Technical University of Munich
+                    <ul class="nested-awards">
+                      <li>First job: Assistant Professor at Dublin City University (DCU)</li>
+                      <li><i class="fa-solid fa-award" aria-hidden="true"></i> Alexander von Humboldt Fellowship</li>
+                    </ul>
+                  </li>
+                  <li><a href="https://wcgu1993.github.io/WenchaoGU.github.io/" target="_blank" rel="noopener noreferrer">Wenchao Gu</a> (Jun.2024-Oct.2025), Technical University of Munich</li>
+                </ul>
+              </div>
+
+              <div class="subsection-block" id="phd">
+                <h3>PhD</h3>
+                <ul class="compact-list">
+                  <li>Emilija Gjorgjevska (Jan.2026-), Technical University of Munich</li>
+                  <li><a href="https://www.cs.cit.tum.de/en/seai/team/zhen-tao/" target="_blank" rel="noopener noreferrer">Zhen Tao</a> (Feb.2025-), Technical University of Munich</li>
+                  <li><a href="https://www.cs.cit.tum.de/seai/team/lianlian-qi/" target="_blank" rel="noopener noreferrer">Lianlian Qi</a> (Dec.2024-), Technical University of Munich (with Austrian Institute of Technology)</li>
+                  <li><a href="https://www.cs.cit.tum.de/en/seai/team/zixu-wang/" target="_blank" rel="noopener noreferrer">Zixu Wang</a> (Dec.2024-), Technical University of Munich (with Infineon)</li>
+                  <li>Ezgi Sar&#305;kayak (Nov.2024-), Technical University of Munich (with Siemens)</li>
+                  <li>
+                    <a href="https://www.cs.cit.tum.de/en/seai/team/kai-huang/" target="_blank" rel="noopener noreferrer">Kai Huang</a> (Nov.2024-), Technical University of Munich
+                    <ul class="nested-awards">
+                      <li><i class="fa-solid fa-award" aria-hidden="true"></i> ACM SIGSOFT Distinguished Paper Award at ASE 2025 <span class="refs-link"><a href="https://arxiv.org/abs/2506.16136" target="_blank" rel="noopener noreferrer">PDF</a></span></li>
+                      <li><a href="https://www.daad.de/de/im-ausland-studieren-forschen-lehren/forschen-im-ausland/ifi/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> DAAD IFI Scholarship</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://www.cs.cit.tum.de/en/seai/team/shen-hu/" target="_blank" rel="noopener noreferrer">Shen Hu</a> (Nov.2024-), Technical University of Munich
+                    <ul class="nested-awards">
+                      <li><a href="https://en.bidt.digital/funding/graduate-center-for-doctoral-researchers/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> Bavarian Research Institute for Digital Transformation (BIDT) Scholarship</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="https://www.cs.cit.tum.de/seai/team/yuetian-mao/" target="_blank" rel="noopener noreferrer">Yuetian Mao</a> (Jun.2024-), Technical University of Munich</li>
+                  <li>
+                    <a href="https://www.cs.cit.tum.de/seai/team/ludwig-felder/" target="_blank" rel="noopener noreferrer">Ludwig Felder</a> (Jun.2024-), Technical University of Munich
+                    <ul class="nested-awards">
+                      <li><i class="fa-solid fa-award" aria-hidden="true"></i> Software Campus Funds</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://sidongfeng.github.io/" target="_blank" rel="noopener noreferrer">Sidong Feng</a> (May.2023-), Monash University
+                    <ul class="nested-awards">
+                      <li><i class="fa-solid fa-award" aria-hidden="true"></i> Amazon Research Award 2025</li>
+                      <li><i class="fa-solid fa-award" aria-hidden="true"></i> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems &amp; Cybersecurity, Monash University 2025</li>
+                      <li><a href="https://en.wikipedia.org/wiki/Chinese_government_award_for_outstanding_self-financed_students_abroad" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> Chinese Government Award for Outstanding Self-financed Students Abroad 2024</a></li>
+                      <li><a href="https://conf.researchr.org/info/icse-2023/awards" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> ACM SIGSOFT Distinguished Paper Award at ICSE 2023</a> <span class="refs-link"><a href="https://arxiv.org/abs/2212.05203" target="_blank" rel="noopener noreferrer">PDF</a></span></li>
+                    </ul>
+                  </li>
+                  <li>
+                    Yujin Huang (Dec.2022-), Monash University -&gt; University of Melbourne (Co-supervised with Xingliang Yuan)
+                    <ul class="nested-awards">
+                      <li><a href="https://www.monash.edu/it/news/2023/deans-awards-for-excellence-in-research" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems &amp; Cybersecurity, 2023, Monash University</a></li>
+                    </ul>
+                  </li>
+                  <li>Jian Gu (Nov.2022-), Monash University (Co-supervised with Aldeida Aleti)</li>
+                  <li>
+                    Han Wang (May.2021-Nov.2024), Monash University
+                    <ul class="nested-awards">
+                      <li>First job: Software Engineer in InvestorHub.</li>
+                      <li><a href="https://www.monash.edu/it/research/awards-and-successes/graduate-researcher-achievements/deans-award-for-research-excellence-by-a-graduate-research-student" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> Dean's Award for Excellence by a Graduate Research Student at Department of Software Systems &amp; Cybersecurity, 2022, Monash University</a></li>
+                    </ul>
+                  </li>
+                  <li>Han Hu (Jan.2021-Jul.2024), Monash University</li>
+                  <li>
+                    Suyu Ma (Mar.2020-Aug.2024), Monash University (Co-supervised with John Grundy)
+                    <ul class="nested-awards">
+                      <li>First job: Research Scientist in Data61, CSIRO.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="https://chenjshnn.github.io/" target="_blank" rel="noopener noreferrer">Jieshan Chen</a> (Aug.2018-Feb.2022), Australian National University (Co-supervised with Zhenchang Xing)
+                    <ul class="nested-awards">
+                      <li>First job: Research Scientist in Data61, CSIRO.</li>
+                      <li><a href="https://2020.icse-conferences.org/info/awards" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> ACM SIGSOFT Distinguished Paper Award at ICSE 2020</a> <span class="refs-link"><a href="https://arxiv.org/abs/2003.00380" target="_blank" rel="noopener noreferrer">PDF</a></span></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subsection-block" id="visiting">
+                <h3>Visiting/Remote students</h3>
+                <ul class="compact-list">
+                  <li>
+                    <a href="https://zheliu6.github.io/" target="_blank" rel="noopener noreferrer">Zhe Liu</a> (Jan.2020-Jun.2023), Chinese Academy of Sciences
+                    <ul class="nested-awards">
+                      <li>First job: Assistant Professor at Institute of Software, Chinese Academy of Sciences.</li>
+                      <li><a href="https://programs.sigchi.org/chi/2024/awards/honorable-mentions" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> Best Paper Honorable Mention in CHI 2024</a></li>
+                      <li><a href="https://src.acm.org/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> ACM Student Research Competition Grand Finals Winner, 2023</a></li>
+                    </ul>
+                  </li>
+                  <li>Yuhui Su (Jul.2020-Aug.2022), Chinese Academy of Sciences</li>
+                  <li>Tianming Zhao (Jan.2019-Dec.2020), Jilin University</li>
+                  <li>
+                    Kaibo Cao (Jul.2019-Dec.2020), Nanjing University
+                    <ul class="nested-awards">
+                      <li><a href="https://conf.researchr.org/track/icse-2021/icse-2021-awards#Award-Recipients-at-ICSE-2021" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-award" aria-hidden="true"></i> ACM SIGSOFT Distinguished Paper Award at ICSE 2021</a> <span class="refs-link"><a href="https://arxiv.org/pdf/2102.00826" target="_blank" rel="noopener noreferrer">PDF</a></span></li>
+                    </ul>
+                  </li>
+                  <li>Zhidan Yuan (Sep.2019-Dec.2019), Nantong University</li>
+                  <li>Dun Zhang (Jan.2019-Apr.2019), Nantong University</li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+          <section class="content-section" id="teach">
+            <div class="section-heading">
+              <h2>Teaching</h2>
+            </div>
+            <ul class="compact-list">
+              <li>CITHN2014 / CITHN4004 - Foundations and Application of Generative AI, TUM (2024-now)</li>
+              <li>CITHN3003 - Advanced Topics on Software Engineering, TUM (2024-now)</li>
+              <li>INHN0015 - Seminar Automated Mobile App Testing, TUM (2024)</li>
+              <li>FIT3170 - Software Engineering Practice, Monash (2021-2023)</li>
+              <li>FIT9136 - Algorithms and Programming Foundations in Python, Monash (2020)</li>
+              <li>FIT9133 - Programming Foundations in Python, Monash (2019)</li>
+              <li>CZ3003 - Software Systems Analysis &amp; Design, NTU (2015-2017)</li>
+              <li>CE2006 - Software Engineering, NTU (2016)</li>
+              <li>CZ2002 - Object-Oriented Design &amp; Programming, NTU (2016)</li>
+            </ul>
+          </section>
+
+          <section class="content-section" id="service">
+            <div class="section-heading">
+              <h2>Service</h2>
+            </div>
+            <div class="content-stack">
+              <div class="subsection-block" id="organisation">
+                <h3>Organisation</h3>
+                <ul class="service-list">
+                  <li>Guest Editor, Special Issue on <a href="https://emsejournal.github.io/special_issues/2025_SI_LLM4Security.html" target="_blank" rel="noopener noreferrer">When Software Security Meets Large Language Models: Opportunities and Challenges</a>, Springer Empirical Software Engineering</li>
+                  <li>Schedule <a href="https://conf.researchr.org/committee/icse-2023/icse-2023-organising-committee" target="_blank" rel="noopener noreferrer">Co-Chair</a>: 45th International Conference on Software Engineering (ICSE-23)</li>
+                  <li>Volunteer <a href="https://conf.researchr.org/track/ase-2021/ase-2021-student-volunteers" target="_blank" rel="noopener noreferrer">Co-Chair</a>: IEEE/ACM International Conference on Automated Software Engineering (ASE-21)</li>
+                  <li><a href="https://icsme2021.github.io/program/Schedule.html" target="_blank" rel="noopener noreferrer">Keynote</a> at Doctoral Symposium: IEEE International Conference on Software Maintenance and Evolution (ICSME-21)</li>
+                  <li>Student Research Competition <a href="https://conf.researchr.org/track/ase-2020/ase-2020-student-research-competition" target="_blank" rel="noopener noreferrer">Co-Chair</a>: IEEE/ACM International Conference on Automated Software Engineering (ASE-20)</li>
+                  <li>Guest Editor, Special Issue on <a href="https://static.springer.com/sgw/documents/1656130/application/pdf/CFP_+ASEJ+Special+Issues+on+Automated+App+Development.pdf" target="_blank" rel="noopener noreferrer">Automated Software Engineering for Mobile Applications</a>, Springer Automated Software Engineering</li>
+                </ul>
+              </div>
+
+              <div class="subsection-block" id="pc">
+                <h3>Program Committee or Area Chair</h3>
+                <ul class="service-list">
+                  <li>International Conference on Software Engineering (ICSE-27, 26, 25, 24, 23)</li>
+                  <li>ACM Foundations of Software Engineering (FSE-26, 25, 24)</li>
+                  <li>IEEE/ACM International Conference on Automated Software Engineering (ASE-26, 25, 24, 23, 22)</li>
+                  <li>ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA-25, 24)</li>
+                  <li>IEEE International Symposium on Software Reliability Engineering (ISSRE-24)</li>
+                  <li>ACM SIGCHI Conference on Computer-Supported Cooperative Work &amp; Social Computing (CSCW-24)</li>
+                  <li>International Joint Conference on Artificial Intelligence (IJCAI-23, 22, 21)</li>
+                  <li>The ACM International Conference on Supporting Group Work (GROUP-22)</li>
+                  <li>The International Conference on Software Maintenance and Evolution (ICSME-22, 21, 20, 18)</li>
+                  <li>ACM Student Research Competition (SRC-22, 21)</li>
+                  <li>ACM Symposium on User Interface Software and Technology (UIST-21) reviewer</li>
+                  <li>Mining Software Repositories (MSR-23, 22, 21, 20, 19)</li>
+                  <li>Asian Conference on Machine Learning (ACML-21, 20)</li>
+                  <li>International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering (RAISE-21, 20)</li>
+                  <li>IEEE International Conference on Program Comprehension, Replication and Negative Results Track (ICPC-21)</li>
+                  <li>International Conference on Predictive Models and Data Analysis in Software Engineering (PROMISE-21)</li>
+                  <li>IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER-23, 20, 19)</li>
+                  <li>Asia-Pacific Software Engineering Conference (APSEC-20)</li>
+                  <li>Asia-Pacific Symposium on Internetware (Internetware-20, 21, 22)</li>
+                  <li>IEEE/ACM International Conference on Automated Software Engineering, tool track (ASE-19)</li>
+                </ul>
+              </div>
+
+              <div class="subsection-block" id="journal-reviewer">
+                <h3>Journal Reviewer</h3>
+                <ul class="service-list">
+                  <li>Nature Machine Intelligence (NMI)</li>
+                  <li>Communications of the ACM</li>
+                  <li>IEEE Transactions on Software Engineering (TSE)</li>
+                  <li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
+                  <li>IEEE Transactions on Dependable and Secure Computing (TDSC)</li>
+                  <li>IEEE Transactions on Information Forensics and Security (TIFS)</li>
+                  <li>IEEE Transactions on Reliability (TRel)</li>
+                  <li>Springer Empirical Software Engineering (EMSE)</li>
+                  <li>Springer Automated Software Engineering (AUSE)</li>
+                  <li>Elsevier Journal of Systems and Software (JSS)</li>
+                  <li>IEEE Software</li>
+                  <li>Journal of Software: Evolution and Process</li>
+                  <li>Journal of Computer Science and Technology (JCST)</li>
+                  <li>International Journal of Human-Computer Interaction (IJHCI)</li>
+                </ul>
+              </div>
+
+              <div class="subsection-block" id="funding-reviewer">
+                <h3>Funding Reviewer</h3>
+                <ul class="service-list">
+                  <li>DFG - Deutsche Forschungsgemeinschaft</li>
+                  <li>DP, DECRA, LP, Australian Research Council</li>
+                  <li>Luxembourg National Research Fund</li>
+                  <li>Singapore Ministry of Education (MOE) Tier 3</li>
+                  <li>Eliteprogramm f&uuml;r Postdoktorandinnen und Postdoktoranden der Baden-W&uuml;rttemberg Stiftung</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="sidebar-column" aria-label="Profile and external links">
+          <section class="profile-card">
+            <img src="picture/chunyangChen_headshot.jpg" alt="Portrait of Chunyang Chen">
+            <h2>Chunyang Chen</h2>
+            <p class="profile-role">Professor, Chair of Software Engineering &amp; AI, Technical University of Munich</p>
+            <p class="profile-email">chun-yang.chen [at] tum.de</p>
+            <ul class="sidebar-facts">
+              <li>Adjunct Professor, Monash University</li>
+              <li>Core member, Munich Data Science Institute</li>
+              <li>Board member, Heilbronn Data Science Center</li>
+              <li>Fellow, fortiss</li>
+            </ul>
+            <div class="profile-links">
+              <a class="profile-link" href="https://www.professoren.tum.de/en/chen-chunyang" target="_blank" rel="noopener noreferrer" aria-label="TUM profile" title="TUM profile">
+                <span class="profile-link-badge" aria-hidden="true">TUM</span>
+                <span class="sr-only">TUM profile</span>
+              </a>
+              <a class="profile-link" href="https://scholar.google.com/citations?user=3tyGlPsAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar">
+                <img src="picture/icons8-google-scholar.svg" alt="" aria-hidden="true">
+                <span class="sr-only">Google Scholar</span>
+              </a>
+              <a class="profile-link" href="https://dblp.org/pid/180/7246.html" target="_blank" rel="noopener noreferrer" aria-label="DBLP" title="DBLP">
+                <img src="picture/dblp.svg" alt="" aria-hidden="true">
+                <span class="sr-only">DBLP</span>
+              </a>
+              <a class="profile-link" href="https://www.linkedin.com/in/chunyang-chen-503762100" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                <img src="picture/linkedIn.svg.png" alt="" aria-hidden="true">
+                <span class="sr-only">LinkedIn</span>
+              </a>
+              <a class="profile-link" href="https://twitter.com/chun_yang_chen" target="_blank" rel="noopener noreferrer" aria-label="Twitter" title="Twitter">
+                <img src="picture/icons8-twitter.svg" alt="" aria-hidden="true">
+                <span class="sr-only">Twitter</span>
+              </a>
+            </div>
+          </section>
+        </aside>
       </div>
-    </div>
-   </div>
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123405327-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-123405327-1');
-</script>
+      <footer class="footer">
+        <p>&copy; Chunyang Chen. Last updated April 2026 by Codex.</p>
+      </footer>
+    </main>
 
-  <!-- Add these scripts before closing body tag to make it work in mobile devices-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123405327-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-123405327-1');
+    </script>
+    <script src="javascripts/main.js"></script>
   </body>
 </html>

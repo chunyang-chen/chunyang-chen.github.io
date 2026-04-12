@@ -1,87 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://chunyang-chen.github.io/publication/UIsearch_TOSEM20.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/Seenomaly_ICSE20.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/similarAPI_ICSE20.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/phishingApp_TDSC19.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/API_NER_TSE2019.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/SEthesaurusWordnet_TSE19.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/designGallery_CSCW19.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publications.html</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/actionnet_ICSE19.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/softwareLocalization_EMSE.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/1902.00476.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/analogyJournal_EMSE.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/proactiveEdit_cscw18.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/diffSimilarTech.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/ui2code.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/correctSentence.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/seThesaurus.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/ASE2016_gbchen.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/analogyTool.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/techLand.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/technology_landscape.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/diffTechTool_FSE20.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/analogical_libraries.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publication/ask_search_correlation.pdf</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/LLMpublications.html</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/publications.html</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/tool.html</loc>
-</url>
-<url>
-<loc>https://chunyang-chen.github.io/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://chunyang-chen.github.io/</loc>
+    <lastmod>2026-04-11</lastmod>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publications.html</loc>
+    <lastmod>2026-04-11</lastmod>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/LLMpublications.html</loc>
+    <lastmod>2026-04-11</lastmod>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/tool.html</loc>
+    <lastmod>2026-04-11</lastmod>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/actionnet_ICSE19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/analogical_libraries.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/analogyJournal_EMSE.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/analogyTool.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/API_NER_TSE2019.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/ASE2016_gbchen.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/ask_search_correlation.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/correctSentence.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/designGallery_CSCW19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/diffSimilarTech.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/diffTech_TSE21.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/diffTechTool_FSE20.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/icon_IUI21.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/phishingApp_TDSC19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/proactiveEdit_cscw18.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/Seenomaly_ICSE20.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/seThesaurus.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/SEthesaurusWordnet_TSE19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/similarAPI_ICSE20.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/similarAPI_TSE19.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/softwareLocalization_EMSE.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/techLand.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/technology_landscape.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/ui2code.pdf</loc>
+  </url>
+  <url>
+    <loc>https://chunyang-chen.github.io/publication/UIsearch_TOSEM20.pdf</loc>
+  </url>
 </urlset>
