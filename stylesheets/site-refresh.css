@@ -434,10 +434,7 @@ body.page-home .site-shell {
 .meta-link-row,
 .tool-link-row,
 .small-note {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem 0.8rem;
-  align-items: center;
+  display: block;
   margin-top: 0.4rem;
   color: var(--soft);
   font-size: 0.93rem;
@@ -548,6 +545,30 @@ body.page-home .site-shell {
 .nested-awards .job-result span,
 .nested-note-list .job-result span {
   display: inline-block;
+}
+
+.fellowship-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.45rem;
+  margin-bottom: 0;
+}
+
+.fellowship-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin-top: 0.5rem;
+}
+
+.fellowship-list img {
+  flex: 0 0 1.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  margin-top: 0.05rem;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .archive-note {
